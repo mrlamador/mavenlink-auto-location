@@ -1,8 +1,10 @@
 # mavenlink-auto-location
 
+Save literally dozens of seconds by automatically selecting a location for time entries in Mavenlink.
+
 ## Installing Manually
 
-You can install this locally by going to `chrome://extensions/` and enabling developer mode in the upper right corner. This add a few options below, click "Load unpacked" and choose the "extension" folder of this repo.
+You can install this locally by going to `chrome://extensions/` and enabling developer mode in the upper right corner. This adds a few options below, click "Load unpacked" and choose the "extension" folder of this repo.
 
 ## Usage
 
