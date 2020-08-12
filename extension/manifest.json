@@ -3,10 +3,10 @@
   "version": "0.1",
   "description": "Because you don't have time when you're logging time!",
   "manifest_version": 2,
-  "permissions": ["*://*.mavenlink.com/*", "storage"],
+  "permissions": ["https://app.mavenlink.com/timesheets*", "storage"],
   "content_scripts": [
     {
-      "matches": ["*://*.mavenlink.com/*"],
+      "matches": ["https://app.mavenlink.com/timesheets*"],
       "js": ["content.js"],
       "run_at": "document_start"
     }
