@@ -1,18 +1,19 @@
 {
   "name": "Mavenlink Location Selector",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Because you don't have time when you're logging time!",
   "manifest_version": 2,
-  "permissions": ["https://app.mavenlink.com/timesheets*", "storage"],
+  "permissions": ["https://*.mavenlink.com/timesheets*", "storage"],
   "content_scripts": [
     {
-      "matches": ["https://app.mavenlink.com/timesheets*"],
+      "matches": ["https://*.mavenlink.com/timesheets*"],
       "js": ["content.js"],
       "run_at": "document_start"
     }
   ],
   "browser_action": {
-    "default_title": "Mavenlink Location Selector",
-    "default_popup": "menu.html"
+    "default_icon": "icon.png",
+    "default_popup": "menu.html",
+    "default_title": "Mavenlink Location Selector"
   }
 }
